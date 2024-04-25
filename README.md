@@ -43,8 +43,8 @@ Han contactado contigo por tu reputación como maquetadora web, y te piden que l
 
 ## Entregables
 
-- Repositorio de **[Github]([https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/46391d6c-b766-4ed3-a121-72c9b2a15960.pdf](https://github.com/project-assigments-p2-singulaars/soundwave-Lapiceros))**.
-- Enlace del despliegue **[Vercel]([https://testing-angular.com/](https://soundwave-lapiceros.vercel.app/))**.
+- Repositorio de **[Github](https://github.com/project-assigments-p2-singulaars/soundwave-Lapiceros)**.
+- Enlace del despliegue **[Vercel](https://soundwave-lapiceros.vercel.app/)**.
 
 ## Modalidad
 
