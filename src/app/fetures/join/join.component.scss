@@ -1,0 +1,148 @@
+:host{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    height: 80vh;
+}
+
+.blue-circle{
+    position: fixed;
+    background-color: #0024d81f;
+    border-radius: 50%;
+    width: 25%;
+    height: 50%;
+    top: -10%;
+    left: 20%;
+    z-index: -1;
+}
+h2 {
+    font-size: 4.5rem;
+    margin: 1rem;
+    margin-left: 5%;
+    span {
+        color: #bc3a80;
+    }
+}
+
+form {
+    height: 40%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #202027;
+    margin-top: 5rem;
+    padding: 1rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        gap: 0.5rem;
+        
+    }
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid #2e3852;
+    border-radius: 5px;
+    height: 2.2rem;
+}
+
+button {
+    margin-top: 1rem;
+    width: 70%;
+    height: 2.2rem;
+    background-color: #1762a7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.pink-circle {
+    position: fixed;
+    background-color: #94008d21;
+    border-radius: 50%;
+    width: 38%;
+    height: 75%;
+    bottom: 0;
+    left: -10%;
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 428px) {
+    :host{
+        flex-direction: column;
+    }
+    .blue-circle{
+        border-radius: 0 0 200px 200px;
+        width: 38vw;
+        height: 11vh;
+        top: 0;
+        z-index: -1;
+    }
+    h2{
+        font-size: 4.2rem;
+        width: 20rem;
+        margin: 1rem;
+        margin-left: 5%;    
+
+    }
+    
+    form{
+        gap: 1rem;
+        height: 50vh;
+        width: 80vw;
+        margin-top: 0;
+        margin-left: 5%;
+        margin-right:5%;
+        border-radius: 20px;
+        div{
+            width: 70%;
+            gap: 0.5rem;
+            
+        }
+        
+    }
+    label{
+        font-weight: 600;
+    }
+    input{
+        background-color: transparent;
+        border: 1px solid #2E3852;
+        border-radius: 5px;
+        height: 2.2rem;
+    }
+    button{
+        margin-top: 1rem;
+        width: 70%;
+        height: 2.2rem;
+        background-color: #1762A7;
+        border: none;
+        border-radius: 5px;
+        color: #FFF;
+    }
+    .pink-circle{
+        position: fixed;
+        background-color: #bc3a7f49;
+        border-radius: 0 100% 0 0;
+        width: 35vw;
+        height: 20vh;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+}
+

@@ -1,0 +1,116 @@
+#blue-circle{
+    position: absolute;
+    background-color: #0024d81f;
+    border-radius: 50%;
+    width: 25%;
+    height: 50%;
+    top: 15%;
+    left: 30%;
+    z-index: -1;
+}
+section{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100vw;
+    height: 86.1vh;
+    gap: 3rem;
+    img{
+        height: 82%;
+    }
+    .main-info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 65%;
+        h2{
+            font-size: 3em;
+            font-weight: 400;
+            margin: 0;
+        }
+        p{
+            font-size: 1.5em;
+            width: 90%;
+        }
+    }
+    #join-btn{
+        background-color: #1a47b0;
+        width: 25%;
+        height: 8%;
+        border: none;
+        border-radius: 5px;
+        color: #FFF;
+    }
+    #join-btn:focus{
+        background-color: #2796ff;
+    }
+    #join-btn:hover{
+        background-color: #2180d8;
+    }
+    
+}
+#bottom-circle{
+    position: absolute;
+    background-color: #0024d82a;
+    border-radius: 100% 0 0;
+    width: 25%;
+    height: 50%;
+    bottom: 0;
+    right: 0;
+}
+#pink-circle{
+    position: absolute;
+    background-color: #94008d21;
+    border-radius: 50%;
+    width: 25%;
+    height: 50%;
+    bottom: 15%;
+    left: 4%;
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 430px) {
+    #blue-circle{
+        width: 30vw;
+        height: 12vh;
+    }
+    img{
+        display: none;
+    }
+    section{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .main-info-container{
+            margin-top: 40%;
+            margin-left: 2rem;
+        }
+        h2{
+            font-weight: 400;
+            width: 80%;
+            font-size: 3rem;
+            margin-bottom: 0;
+            margin-left: 10%;
+        }
+        p{
+            width: 80%;
+        }
+    }
+    
+    #pink-circle{
+        width: 30vw;
+        height: 15vh;
+        bottom: 1%;
+        left: 5%;
+    }
+    #bottom-circle{
+        width: 30%;
+        height: 15%;
+        bottom: 0;
+        right: 0;
+    }
+}

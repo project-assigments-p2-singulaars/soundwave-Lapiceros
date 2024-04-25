@@ -1,0 +1,41 @@
+header{
+    margin-top: 1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    nav{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .links{
+            gap: 2rem;
+        }
+        a:hover{
+            color: #757575;
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    header{
+       nav{
+        width: 100vw;
+        font-size: 1.2rem;
+        justify-content: space-evenly;
+        }
+        div{
+            gap: 10%;
+        }
+        .links{
+            gap: 1rem;
+        }
+    }
+}
