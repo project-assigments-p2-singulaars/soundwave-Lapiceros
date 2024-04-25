@@ -24,18 +24,18 @@ header{
     }
 }
 
-@media screen and (max-width: 428px) {
-
+@media screen and (max-width: 430px) {
     header{
-        margin-top: 10%;
-    }
-    nav{
-        
+       nav{
+        width: 100vw;
         font-size: 1.2rem;
-        color:#FFF ;
-    }
-    div{
-        gap: 10%;
-    
+        justify-content: space-evenly;
+        }
+        div{
+            gap: 10%;
+        }
+        .links{
+            gap: 1rem;
+        }
     }
 }

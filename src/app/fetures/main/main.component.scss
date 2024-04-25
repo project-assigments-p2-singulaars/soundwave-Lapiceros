@@ -1,6 +1,6 @@
 #blue-circle{
     position: absolute;
-    background-color: #4a14a021;
+    background-color: #0024d81f;
     border-radius: 50%;
     width: 25%;
     height: 50%;
@@ -8,12 +8,14 @@
     left: 30%;
     z-index: -1;
 }
-
 section{
+    position: absolute;
+    bottom: 0;
     display: flex;
     align-items: end;
     justify-content: center;
-    height: 86.8vh;
+    width: 100vw;
+    height: 86.1vh;
     gap: 3rem;
     img{
         height: 82%;
@@ -24,16 +26,19 @@ section{
         align-items: flex-start;
         height: 65%;
         h2{
+            font-size: 3em;
+            font-weight: 400;
             margin: 0;
         }
         p{
-            width: 22rem;
+            font-size: 1.5em;
+            width: 90%;
         }
     }
     #join-btn{
         background-color: #1a47b0;
-        width: 95px;
-        height: 40px;
+        width: 25%;
+        height: 8%;
         border: none;
         border-radius: 5px;
         color: #FFF;
@@ -67,13 +72,10 @@ section{
 }
 
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 430px) {
     #blue-circle{
-        background-color: #0024d81f;
-        border-radius: 50%;
         width: 30vw;
         height: 12vh;
-        margin: 10% 45% 0 30%;
     }
     img{
         display: none;
@@ -83,29 +85,32 @@ section{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-
+        .main-info-container{
+            margin-top: 40%;
+            margin-left: 2rem;
+        }
         h2{
             font-weight: 400;
-            width: 50%;
+            width: 80%;
             font-size: 3rem;
             margin-bottom: 0;
             margin-left: 10%;
         }
         p{
             width: 80%;
-            margin-left: 10%;
         }
-        
-        
     }
     
     #pink-circle{
-        position: absolute;
-        background-color: #94008d21;
-        border-radius: 50%;
         width: 30vw;
         height: 15vh;
         bottom: 1%;
         left: 5%;
+    }
+    #bottom-circle{
+        width: 30%;
+        height: 15%;
+        bottom: 0;
+        right: 0;
     }
 }
